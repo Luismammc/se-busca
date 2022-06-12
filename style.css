@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-blanco-fondo-pantalla-textura-papel-arrugado-espacio-libre_33771-635.jpg);
+    background-size: 150em;
+    background-repeat: repeat;
+    font-family: Open Sans;
+    margin: 0px;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 40px;
+    color: #333;
+    font-weight: 600;
+    letter-spacing: -3px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-size: 32px;
+    color: #444;
+    font-weight: 600;
+    letter-spacing: -3px;
+}
+
+.cabecera {
+    background-color: #248f99;
+    min-height: 100px;
+    text-align: center;
+}
+
+.cabecera a img {
+    margin: 10px 0px;
+}
+
+.cuerpo {
+    max-width: 1100px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenido {
+    float: left;
+    width: 65%;
+}
+
+div.contenido img {
+    width: 100%;
+}
+
+.barra-lateral {
+    padding-top: 40px;
+    float: right;
+    width: 30%;
+}
+
+.barra-lateral h3 {
+    color: #444;
+    text-align: center;
+    border-bottom: 1px solid #444;
+}
+
+.pie {
+    clear: both;
+    color: white;
+    background-color: #2C3E50;
+    min-height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    .barra-lateral {
+        display: none;
+    }
+
+    .cuerpo {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contenido {
+        float: none;
+        width: 100%;
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+    }
+}
+#madrid {
+    height: 20em;
+    width: 90em;
+}
+
+a {
+    text-decoration: none;
+}
+
+#fotilsh {
+    width: 18em;
+    height: 30em;
+}
+
+#fotilsv {
+    width: 40em;
+    height: 25em;
+}
+
+#NOMBREFOTO {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+#fotilsq {
+    width: 40em;
+    height: 35em;
+}
+
+#sebusca {
+    width: 30em;
+    height: 50em;
+}
